@@ -1,27 +1,28 @@
+@import "../scss/base/_variables.scss";
 body {
-  font-family: "Heebo", sans-serif !important;
+  font-family: "Heebo", sans-serif;
 }
 
 .navbar-collapse {
-  -webkit-box-pack: end !important;
-      -ms-flex-pack: end !important;
-          justify-content: flex-end !important;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url(../img/6499731.png) !important;
+  background-image: url(../img/6499731.png);
 }
 
 .navbar-nav .nav-link {
   padding-right: 10px;
-  text-align: right !important;
-  font-weight: 400 !important;
-  font-size: 1rem !important;
+  text-align: right;
+  font-weight: 400;
+  font-size: 1rem;
 }
 
 .footer, .footer--about {
   margin-top: 50px;
-  background-color: #000;
+  background-color: black;
 }
 .footer .lista1, .footer--about .lista1 {
   margin-top: 15px;
@@ -51,7 +52,7 @@ body {
 }
 
 .footer--about {
-  margin-top: 0 !important;
+  margin-top: 0;
 }
 
 .logos a img {
@@ -71,8 +72,8 @@ body {
 }
 
 .card {
-  width: 90% !important;
-  height: 100% !important;
+  width: 90%;
+  height: 100% ;
   -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -100,16 +101,16 @@ body {
 
 /* personalizacion de los botones de la card*/
 .btn-primary {
-  color: #000 !important;
-  background-color: #fff !important;
-  border-color: #fff !important;
+  color: #000;
+  background-color: #fff;
+  border-color: #fff;
 }
 
 /* personalizacion del div que contiene al video*/
 .row-video {
-  margin-top: 0 !important;
-  margin-right: 0 !important;
-  margin-left: 0 !important;
+  margin-top: 0 ;
+  margin-right: 0 ;
+  margin-left: 0 ;
 }
 
 /* caja padre del video multimedia*/
@@ -149,13 +150,13 @@ body {
 
 /*retoques a section del main index*/
 .redondeo-card {
-  border-radius: 20px !important;
-  border-color: transparent !important;
+  border-radius: 20px ;
+  border-color: transparent ;
 }
 
 .img-sec-dimen {
-  width: 100% !important;
-  height: 100% !important;
+  width: 100% ;
+  height: 100% ;
 }
 
 .contexto {
@@ -200,13 +201,13 @@ body {
 }
 
 .btn {
-  border-radius: 40px !important;
+  border-radius: 40px ;
 }
 
 .btn-primary-2 {
-  color: #fff !important;
-  background-color: #000 !important;
-  border-color: #000 !important;
+  color: #fff ;
+  background-color: #000 ;
+  border-color: #000 ;
 }
 
 .m {
@@ -250,8 +251,8 @@ body {
 }
 
 .carousel-caption--relative-zap {
-  position: absolute !important;
-  left: 15% !important;
+  position: absolute ;
+  left: 15% ;
 }
 
 .carousel-inner--visible {
@@ -339,11 +340,11 @@ body {
 }
 
 .bg-dark {
-  background-color: #000 !important;
+  background-color: #000 ;
 }
 
 .border-dark {
-  border-color: #000 !important;
+  border-color: #000 ;
 }
 
 .h1-tiendas {
@@ -541,8 +542,8 @@ body {
 
 @media only screen and (max-width: 992px) {
   .article2 {
-    background-color: rgb(248, 249, 250) !important;
-    border-color: rgb(248, 249, 250) !important;
+    background-color: rgb(248, 249, 250) ;
+    border-color: rgb(248, 249, 250) ;
   }
   .article2 h2 {
     color: #000;
@@ -561,12 +562,12 @@ body {
     height: auto;
   }
   .card {
-    width: 80% !important;
-    height: auto !important;
+    width: 80% !;
+    height: auto ;
   }
   .img-sec-dimen {
-    width: 100% !important;
-    height: 100% !important;
+    width: 100% ;
+    height: 100% ;
   }
   .contexto h1 {
     font-size: 9rem;
@@ -655,8 +656,8 @@ body {
     font-size: 55px;
   }
   .card {
-    width: 85% !important;
-    height: auto !important;
+    width: 85% ;
+    height: auto ;
   }
   .h2-card {
     font-size: 2, 5rem;
@@ -699,11 +700,11 @@ body {
     height: 80%;
   }
   .card {
-    width: 80% !important;
-    height: auto !important;
+    width: 80% ;
+    height: auto ;
   }
   .card-title {
-    margin-bottom: 20px !important;
+    margin-bottom: 20px ;
   }
   .h2-card {
     font-size: 2rem;
@@ -787,8 +788,8 @@ body {
     z-index: 2;
   }
   .w-60 {
-    width: 75% !important;
-    height: 90% !important;
+    width: 75% ;
+    height: 90% ;
   }
   .carousel-inner--visible {
     overflow: visible;
